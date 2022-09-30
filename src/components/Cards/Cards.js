@@ -9,7 +9,7 @@ const Cards = (props) => {
             <h2>{props.name}</h2>
             <p>{props.text}</p>
             <p>For Age: <b>{props.age}</b></p>
-            <p>Time required: <b>{props.time}</b></p>
+            <p>Time required: <b>{props.time}s</b></p>
             <button className='start-btn'>Start</button>
             </div>
         </div>
