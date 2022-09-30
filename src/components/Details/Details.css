@@ -1,10 +1,10 @@
 .details-section {
   background-color: cadetblue;
   height: 100vh;
+  text-align: center;
   margin-top: 300px;
 }
 .personal-details {
-  text-align: center;
   padding-top: 50px;
 }
 .extra-info {
@@ -14,4 +14,17 @@
   color: white;
   margin: 25px 30px;
   border-radius: 10px;
+}
+.all-break-btn {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin: 25px 30px;
+  border-radius: 10px;
+}
+.break-btn {
+  padding: 20px;
+  border-radius: 50%;
+  font-weight: 800;
 }

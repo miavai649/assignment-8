@@ -24,6 +24,23 @@ const Details = () => {
             </div>
         </div>
       </div>
+      <h2>Add a Break</h2>
+      <div className="all-break-btn">
+            <div>
+                <button className="break-btn">10s</button>
+            </div>
+            <div>
+                <button className="break-btn">20s</button>
+            </div>
+            <div>
+                <button className="break-btn">30s</button>
+            </div>
+            <div>
+                <button className="break-btn">40s</button>
+            </div>
+        </div>
+        <h2>Exercise Information</h2>
+        
     </div>
   );
 };
