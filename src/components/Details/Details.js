@@ -48,6 +48,7 @@ const Details = () => {
             <h3>Break Time:</h3>
             <span>00s</span>
         </div>
+        <button className="exercise-done-btn">Exercise Done</button>
     </div>
   );
 };
