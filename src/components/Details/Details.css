@@ -28,3 +28,23 @@
   border-radius: 50%;
   font-weight: 800;
 }
+.exercise-time-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 5px 35px;
+  margin: 5px 25px;
+  border-radius: 15px;
+}
+.break-time-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 5px 35px;
+  margin: 20px 25px;
+  border-radius: 15px;
+}

@@ -40,7 +40,14 @@ const Details = () => {
             </div>
         </div>
         <h2>Exercise Information</h2>
-        
+        <div className="exercise-time-details">
+            <h3>Exercise Time:</h3>
+            <span>0 min</span>
+        </div>
+        <div className="break-time-details">
+            <h3>Break Time:</h3>
+            <span>00s</span>
+        </div>
     </div>
   );
 };
