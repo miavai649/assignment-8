@@ -1,0 +1,14 @@
+.questions {
+  text-align: center;
+  margin-top: 80px;
+}
+.answers {
+  background-color: blanchedalmond;
+  margin: 20px 100px;
+  padding: 65px;
+  border-radius: 20px;
+}
+.question {
+  font-size: x-large;
+  color: red;
+}
