@@ -1,0 +1,29 @@
+.cards-content {
+  height: 530px;
+  width: 300px;
+  box-shadow: 8px 8px 50px gray;
+  border-radius: 8px;
+  position: relative;
+}
+
+.cards-content img {
+  width: 286px;
+  height: 200px;
+  margin: 7px;
+  border-radius: 8px;
+}
+.card-details {
+  text-align: center;
+}
+.start-btn {
+  padding: 12px 100px;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.start-btn:hover {
+  background-color: cadetblue;
+}

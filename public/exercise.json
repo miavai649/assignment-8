@@ -1,0 +1,50 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Bridge",
+    "img": "https://www.verywellfit.com/thmb/CxsArsO0mZsP0-Tr7ws5X1H4YQ4=/2500x1667/filters:fill(auto,1)/Verywell-12-3567220-Bridge02-772copy-5c631946c9e77c0001d93219.jpg",
+    "details": "Activate your core and posterior chain (a fancy term for the backside of your body) with a bridge. This is a great exercise to use as a warmup.",
+    "age": "15-25",
+    "time": 30
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Chair squat",
+    "img": "https://c8.alamy.com/comp/2CTK2H6/smiling-woman-doing-squats-during-home-workout-2CTK2H6.jpg",
+    "details": "Squat to strengthen your legs and core, which will make everyday movements easier. Starting with a chair underneath you will help you master proper form.",
+    "age": "15-25",
+    "time": 35
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Knee pushup",
+    "img": "https://post.greatist.com/wp-content/uploads/sites/2/2019/10/GRT_Pushup_Track_Fitness_Female-1200x628-Facebook.jpg",
+    "details": "A beginner-style pushup, this move will help you build strength before attempting a standard pushup.",
+    "age": "15-25",
+    "time": 20
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Stationary lunge",
+    "img": "https://image.shutterstock.com/image-photo/pretty-girl-dark-hair-wearing-260nw-363957950.jpg",
+    "details": "Hit your quads, hamstrings, and glutes with a stationary lunge.",
+    "age": "15-25",
+    "time": 40
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Plank to Downward Dog",
+    "img": "https://media1.popsugar-assets.com/files/thumbor/IvMBb85b02ykRBUEehBKBkikq-A/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/04/10/779/n/1922729/c5cf56ad05d37259_planktodowndog/i/Plank-Down-Dog-Ankle-Reach.jpg",
+    "details": "This move will test your upper body, especially your shoulders. Who says you need weights for a shoulder workout?",
+    "age": "15-25",
+    "time": 10
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Bird Dog",
+    "img": "https://media1.popsugar-assets.com/files/thumbor/dUPVX4QMqj1K164sEKfIHAvbhVc/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2013/12/26/713/n/1922729/d5bd24246083bc24_bird-dog-26/i/Core-Bird-Dog.jpg",
+    "details": "A full-body move that requires balance and stability, the Bird Dog pose is easily scalable to your ability level. Start with this version if you’re a beginner.",
+    "age": "15-25",
+    "time": 20
+  }
+]
