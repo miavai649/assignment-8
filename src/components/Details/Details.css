@@ -1,0 +1,17 @@
+.details-section {
+  background-color: cadetblue;
+  height: 100vh;
+  margin-top: 300px;
+}
+.personal-details {
+  text-align: center;
+  padding-top: 50px;
+}
+.extra-info {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin: 25px 30px;
+  border-radius: 10px;
+}
