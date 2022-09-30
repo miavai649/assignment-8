@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cards from '../Cards/Cards';
+import Details from '../Details/Details';
 import './Container.css';
 
 const Container = () => {
@@ -24,7 +25,9 @@ const Container = () => {
                     }
                 </div>
             </div>
-            <div className="left-container">i am left</div>
+            <div className="left-container">
+                <Details></Details>
+            </div>
         </div>
     );
 };
