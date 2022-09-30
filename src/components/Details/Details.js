@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Details.css";
 
 const Details = () => {
+  const [breakBtn, setBreakBtn] = useState(0)
+  function handleBreakTime(props){
+    setBreakBtn(props);
+  }
   return (
     <div className="details-section">
       <div className="personal-details">
@@ -27,16 +31,16 @@ const Details = () => {
       <h2>Add a Break</h2>
       <div className="all-break-btn">
             <div>
-                <button className="break-btn">10s</button>
+                <button onClick={()=>handleBreakTime(10)} className="break-btn">10s</button>
             </div>
             <div>
-                <button className="break-btn">20s</button>
+                <button onClick={()=>handleBreakTime(20)} className="break-btn">20s</button>
             </div>
             <div>
-                <button className="break-btn">30s</button>
+                <button onClick={()=>handleBreakTime(30)} className="break-btn">30s</button>
             </div>
             <div>
-                <button className="break-btn">40s</button>
+                <button onClick={()=>handleBreakTime(40)} className="break-btn">40s</button>
             </div>
         </div>
         <h2>Exercise Information</h2>
@@ -46,7 +50,7 @@ const Details = () => {
         </div>
         <div className="break-time-details">
             <h3>Break Time:</h3>
-            <span>00s</span>
+            <span>{breakBtn}s</span>
         </div>
         <button className="exercise-done-btn">Exercise Done</button>
     </div>

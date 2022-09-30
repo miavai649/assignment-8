@@ -21,7 +21,7 @@ const Container = () => {
                 </div>
                 <div className="cards">
                     {
-                        cards.map(card => <Cards img={card.img} name={card.name} text={card.details} age={card.age} time={card.time}></Cards>)
+                        cards.map(card => <Cards key={card.id} img={card.img} name={card.name} text={card.details} age={card.age} time={card.time}></Cards>)
                     }
                 </div>
             </div>
