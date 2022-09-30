@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import "./Details.css";
 
-const Details = () => {
+const Details = (props) => {
+  const {details} = props;
+
+  let totalTime = 0;
+  for(const detail of details){
+    totalTime = totalTime + detail.time
+  }
   const [breakBtn, setBreakBtn] = useState(0)
   function handleBreakTime(props){
     setBreakBtn(props);
@@ -46,7 +52,7 @@ const Details = () => {
         <h2>Exercise Information</h2>
         <div className="exercise-time-details">
             <h3>Exercise Time:</h3>
-            <span>0 min</span>
+            <span>{totalTime} min</span>
         </div>
         <div className="break-time-details">
             <h3>Break Time:</h3>

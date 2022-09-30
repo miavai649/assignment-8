@@ -2,15 +2,16 @@ import React from 'react';
 import "./Cards.css";
 
 const Cards = (props) => {
+    const {img, name, text, age, time, handleExerciseTime} = props
     return (
         <div className='cards-content'>
-            <img src={props.img} alt="" />
+            <img src={img} alt="" />
             <div className="card-details">
-            <h2>{props.name}</h2>
-            <p>{props.text}</p>
-            <p>For Age: <b>{props.age}</b></p>
-            <p>Time required: <b>{props.time}min</b></p>
-            <button className='start-btn'>Start</button>
+            <h2>{name}</h2>
+            <p>{text}</p>
+            <p>For Age: <b>{age}</b></p>
+            <p>Time required: <b>{time}min</b></p>
+            <button onClick={()=>handleExerciseTime(props)} className='start-btn'>Start</button>
             </div>
         </div>
     );

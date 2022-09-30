@@ -5,6 +5,7 @@ import './Container.css';
 
 const Container = () => {
     const [cards, setCards] = useState([]);
+    const [details, setDetails] = useState([])
 
     useEffect(()=>{
         fetch('exercise.json')
@@ -12,6 +13,11 @@ const Container = () => {
         .then(data => setCards(data))
     },[])
     
+    const handleExerciseTime = (card) =>{
+        const newDetails = [...details, card]
+        setDetails(newDetails)
+    }
+
     return (
         <div className='container'>
             <div className="right-container">
@@ -21,12 +27,12 @@ const Container = () => {
                 </div>
                 <div className="cards">
                     {
-                        cards.map(card => <Cards key={card.id} img={card.img} name={card.name} text={card.details} age={card.age} time={card.time}></Cards>)
+                        cards.map(card => <Cards handleExerciseTime={handleExerciseTime} key={card.id} img={card.img} name={card.name} text={card.details} age={card.age} time={card.time}></Cards>)
                     }
                 </div>
             </div>
             <div className="left-container">
-                <Details></Details>
+                <Details details={details}></Details>
             </div>
         </div>
     );
